@@ -2,40 +2,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>S. Astromancia</title>
-  <style>
-    body {
-      background-color: #0e0e0e;
-      color: #f5f5f5;
-      font-family: 'Georgia', serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.5em;
-      letter-spacing: 1px;
-    }
-    p {
-      font-size: 1.3em;
-      line-height: 1.6;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      color: #999;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. Astromancia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@1,700&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>S. Astromancia</h1>
-  <p>Bienvenida al observatorio simbólico de Sandra. Aquí confluyen los sueños, los astros y la palabra que revela.</p>
-  <p>Pronto encontrarás lecturas, el calendario lunar, el podcast <strong>"S. Astromancia"</strong> y más contenido inspirador.</p>
-  <footer>
-    © 2025 S. Astromancia · Todos los derechos reservados
-  </footer>
+    <header>
+        <h1>S. Astromancia</h1>
+        <p class="subtitle">Gramática del cielo, palabras de la noche</p>
+    </header>
+
+    <section class="about">
+        <h2>¿Quién soy?</h2>
+        <p>Soy S. Astromancia. Este espacio es una extensión simbólica y sonora de mi práctica: una mezcla de astrología viva, arte, y pensamiento inspirado en lo invisible. Aquí comparto mis reflexiones, símbolos, dibujos, y la voz que acompaña los ciclos del cielo. Bienvenidx.</p>
+    </section>
+
+    <section class="podcast">
+        <h2>Escucha el podcast</h2>
+        <iframe style="border-radius:12px" src="https://feeds.redcircle.com/4210072b-0b0c-450d-b8dc-3e950252901a" width="100%" height="200px" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <section class="moon-phase">
+        <h2>🌙 Fase lunar de hoy</h2>
+        <div id="moon-phase-widget">
+            <iframe src="https://www.moonphases.co.uk/moon-widget/moonphase.php" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/mqkrvprz" method="POST">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo" required>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Sígueme:</p>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/@SAstromancia" target="_blank">YouTube</a>
+            <a href="https://www.patreon.com/SAstromancia" target="_blank">Patreon</a>
+        </div>
+    </footer>
 </body>
 </html>
