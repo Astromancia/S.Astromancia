@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #0a0a0a;
+    color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: radial-gradient(circle at top, #1c1c1c, #0a0a0a);
+    text-align: center;
+    padding: 3em 1em;
+    border-bottom: 1px solid #333;
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 4em;
+    margin: 0;
+    color: #d5bfff;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #aaa;
+}
+
+section {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'UnifrakturCook', cursive;
+    color: #cfaaff;
+    margin-bottom: 0.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input, textarea {
+    padding: 0.75em;
+    border: 1px solid #555;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    padding: 0.75em;
+    background-color: #5a2ca0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background-color: #1c1c1c;
+    border-top: 1px solid #333;
+}
+
+.social-icons a {
+    color: #d5bfff;
+    margin: 0 0.75em;
+    text-decoration: none;
+    font-weight: bold;
+}
